@@ -5,12 +5,6 @@
       location = "group:nanovg.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:example_gl3.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:example_gl3_msaa.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:example_fbo.xcodeproj">
+      location = "group:/Users/isaac/VG/project/VeritasGraphics.xcodeproj">
    </FileRef>
 </Workspace>

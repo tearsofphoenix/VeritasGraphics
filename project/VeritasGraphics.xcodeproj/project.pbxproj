@@ -65,6 +65,9 @@
 		2F51044426947D9E2DA73538 /* example_gl3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = example_gl3.c; path = ../example/example_gl3.c; sourceTree = "<group>"; };
 		30757BE44D646B00007A0472 /* perf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = perf.c; path = ../example/perf.c; sourceTree = "<group>"; };
 		342254A1387B1D310C0807D5 /* nanovg.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = nanovg.xcodeproj; sourceTree = SOURCE_ROOT; };
+		6A25A0F420A42F800080A0DD /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE.txt; path = ../LICENSE.txt; sourceTree = "<group>"; };
+		6A25A0F520A42F800080A0DD /* premake4.lua */ = {isa = PBXFileReference; lastKnownFileType = text; name = premake4.lua; path = ../premake4.lua; sourceTree = "<group>"; };
+		6A25A0F620A42F800080A0DD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6A64734920A03E3B002AE9FC /* image8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image8.jpg; sourceTree = "<group>"; };
 		6A64734A20A03E3B002AE9FC /* image9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image9.jpg; sourceTree = "<group>"; };
 		6A64734B20A03E3B002AE9FC /* image12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image12.jpg; sourceTree = "<group>"; };
@@ -117,7 +120,7 @@
 		6A6A3ABF20A2BFC40065C506 /* VGColor.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = VGColor.c; path = ../src/VGColor.c; sourceTree = "<group>"; };
 		6A6A3AC120A2D2EB0065C506 /* VGWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VGWindow.h; path = ../src/VGWindow.h; sourceTree = "<group>"; };
 		6A6A3AC220A2D2EB0065C506 /* VGWindow.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = VGWindow.c; path = ../src/VGWindow.c; sourceTree = "<group>"; };
-		71937EEF0F937BF6032D14E1 /* example_gl3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = example_gl3; sourceTree = BUILT_PRODUCTS_DIR; };
+		71937EEF0F937BF6032D14E1 /* VeritasGraphics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VeritasGraphics; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +146,7 @@
 		213212D364D820F22FC1456D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				71937EEF0F937BF6032D14E1 /* example_gl3 */,
+				71937EEF0F937BF6032D14E1 /* VeritasGraphics */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -277,6 +280,9 @@
 		6D0772E268D706BF76624868 /* example_gl3 */ = {
 			isa = PBXGroup;
 			children = (
+				6A25A0F420A42F800080A0DD /* LICENSE.txt */,
+				6A25A0F520A42F800080A0DD /* premake4.lua */,
+				6A25A0F620A42F800080A0DD /* README.md */,
 				6A6A3A9920A138390065C506 /* lib */,
 				6A64734820A03E3B002AE9FC /* images */,
 				488C19F808181567534D2232 /* example */,
@@ -297,9 +303,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4C0E67586A194E4315280A99 /* example_gl3 */ = {
+		4C0E67586A194E4315280A99 /* VeritasGraphics */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 41F9611D3A371EC731A02229 /* Build configuration list for PBXNativeTarget "example_gl3" */;
+			buildConfigurationList = 41F9611D3A371EC731A02229 /* Build configuration list for PBXNativeTarget "VeritasGraphics" */;
 			buildPhases = (
 				72FC2A17008861E475B57D49 /* Resources */,
 				761F752625C67A3D76C3043B /* Sources */,
@@ -310,10 +316,10 @@
 			dependencies = (
 				46016E742F9E4F414F104031 /* PBXTargetDependency */,
 			);
-			name = example_gl3;
+			name = VeritasGraphics;
 			productInstallPath = "$(HOME)/bin";
 			productName = example_gl3;
-			productReference = 71937EEF0F937BF6032D14E1 /* example_gl3 */;
+			productReference = 71937EEF0F937BF6032D14E1 /* VeritasGraphics */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -324,7 +330,7 @@
 			attributes = {
 				LastUpgradeCheck = 0930;
 			};
-			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "example_gl3" */;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "VeritasGraphics" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 1;
@@ -341,7 +347,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				4C0E67586A194E4315280A99 /* example_gl3 */,
+				4C0E67586A194E4315280A99 /* VeritasGraphics */,
 			);
 		};
 /* End PBXProject section */
@@ -447,7 +453,7 @@
 					"-framework",
 					Carbon,
 				);
-				PRODUCT_NAME = example_gl3;
+				PRODUCT_NAME = VeritasGraphics;
 			};
 			name = "Release Native 32-bit";
 		};
@@ -537,7 +543,7 @@
 					"-framework",
 					Carbon,
 				);
-				PRODUCT_NAME = example_gl3;
+				PRODUCT_NAME = VeritasGraphics;
 			};
 			name = "Debug Native 32-bit";
 		};
@@ -626,7 +632,7 @@
 					"-framework",
 					Carbon,
 				);
-				PRODUCT_NAME = example_gl3;
+				PRODUCT_NAME = VeritasGraphics;
 			};
 			name = "Release Native 64-bit";
 		};
@@ -772,7 +778,7 @@
 					"-framework",
 					Carbon,
 				);
-				PRODUCT_NAME = example_gl3;
+				PRODUCT_NAME = VeritasGraphics;
 			};
 			name = "Debug Native";
 		};
@@ -804,7 +810,7 @@
 					"-framework",
 					Carbon,
 				);
-				PRODUCT_NAME = example_gl3;
+				PRODUCT_NAME = VeritasGraphics;
 			};
 			name = "Debug Native 64-bit";
 		};
@@ -951,14 +957,14 @@
 					"-framework",
 					Carbon,
 				);
-				PRODUCT_NAME = example_gl3;
+				PRODUCT_NAME = VeritasGraphics;
 			};
 			name = "Release Native";
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "example_gl3" */ = {
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "VeritasGraphics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				67D3551642FD27307EDB006A /* Debug Native */,
@@ -971,7 +977,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "Debug Native";
 		};
-		41F9611D3A371EC731A02229 /* Build configuration list for PBXNativeTarget "example_gl3" */ = {
+		41F9611D3A371EC731A02229 /* Build configuration list for PBXNativeTarget "VeritasGraphics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4737201430E072A94A0D1CC5 /* Debug Native */,
