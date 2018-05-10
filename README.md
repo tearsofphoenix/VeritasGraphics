@@ -27,11 +27,11 @@ This will create a render context, you can access this context by `extern VGCont
 ## Using UI in VeritasGraphics
 
 1. VGLabel    
-2.VGButton  
-3.VGSpinner  
-4.VGSlider  
-5.VGInput  
-6.VGCheckBox 
+2. VGButton  
+3. VGSpinner  
+4. VGSlider  
+5. VGInput  
+6. VGCheckBox 
 
 ## License
 The library is licensed under [zlib license](LICENSE.txt)
