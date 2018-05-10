@@ -1,0 +1,990 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09C64D897AE21F6210B632A5 /* perf.c in Sources */ = {isa = PBXBuildFile; fileRef = 30757BE44D646B00007A0472 /* perf.c */; };
+		24597AF109E11D9B3E521F28 /* example_gl3.c in Sources */ = {isa = PBXBuildFile; fileRef = 2F51044426947D9E2DA73538 /* example_gl3.c */; };
+		2BB063B32812749258A075F5 /* libnanovg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FD032F34811C281CF54229 /* libnanovg.a */; };
+		5866472C3639728724C44053 /* demo.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CAA5472492735814CAB07DB /* demo.c */; };
+		6A64735520A03E4B002AE9FC /* image8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A64734920A03E3B002AE9FC /* image8.jpg */; };
+		6A64735620A03E4B002AE9FC /* image9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A64734A20A03E3B002AE9FC /* image9.jpg */; };
+		6A64735720A03E4B002AE9FC /* image12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A64734B20A03E3B002AE9FC /* image12.jpg */; };
+		6A64735820A03E4B002AE9FC /* image11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A64734C20A03E3B002AE9FC /* image11.jpg */; };
+		6A64735920A03E4B002AE9FC /* image10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A64734D20A03E3B002AE9FC /* image10.jpg */; };
+		6A64735A20A03E4B002AE9FC /* image7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A64734E20A03E3B002AE9FC /* image7.jpg */; };
+		6A64735B20A03E4B002AE9FC /* image6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A64734F20A03E3B002AE9FC /* image6.jpg */; };
+		6A64735C20A03E4B002AE9FC /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A64735020A03E3B002AE9FC /* image4.jpg */; };
+		6A64735D20A03E4B002AE9FC /* image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A64735120A03E3B002AE9FC /* image5.jpg */; };
+		6A64735E20A03E4B002AE9FC /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A64735220A03E3B002AE9FC /* image1.jpg */; };
+		6A64735F20A03E4B002AE9FC /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A64735320A03E3B002AE9FC /* image2.jpg */; };
+		6A64736020A03E4B002AE9FC /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A64735420A03E3B002AE9FC /* image3.jpg */; };
+		6A6A3A8620A04C240065C506 /* VGFont.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3A8520A04C240065C506 /* VGFont.c */; };
+		6A6A3A8920A04D3B0065C506 /* VGLayer.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3A8820A04D3B0065C506 /* VGLayer.c */; };
+		6A6A3A8C20A04D460065C506 /* VGLabel.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3A8B20A04D460065C506 /* VGLabel.c */; };
+		6A6A3A9020A04F6C0065C506 /* VGGeometry.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3A8F20A04F6C0065C506 /* VGGeometry.c */; };
+		6A6A3A9320A052600065C506 /* VGObject.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3A9220A052600065C506 /* VGObject.c */; };
+		6A6A3A9720A057A20065C506 /* VGContext.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3A9620A057A20065C506 /* VGContext.c */; };
+		6A6A3AA020A138390065C506 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6A6A3A9B20A138390065C506 /* LICENSE */; };
+		6A6A3AA120A138390065C506 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6A6A3A9C20A138390065C506 /* README.md */; };
+		6A6A3AA220A138390065C506 /* vec.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3A9F20A138390065C506 /* vec.c */; };
+		6A6A3AA520A13F710065C506 /* VGButton.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3AA420A13F710065C506 /* VGButton.c */; };
+		6A6A3AA820A190A00065C506 /* VGSpinner.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3AA720A190A00065C506 /* VGSpinner.c */; };
+		6A6A3AAB20A194AE0065C506 /* VGGradient.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3AAA20A194AE0065C506 /* VGGradient.c */; };
+		6A6A3AAF20A19DBB0065C506 /* VGSlider.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3AAE20A19DBB0065C506 /* VGSlider.c */; };
+		6A6A3AB320A1A1E60065C506 /* VGInput.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3AB220A1A1E60065C506 /* VGInput.c */; };
+		6A6A3AB620A1B1E30065C506 /* VGEvent.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3AB520A1B1E30065C506 /* VGEvent.c */; };
+		6A6A3ABC20A290D80065C506 /* VGCheckBox.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3ABB20A290D80065C506 /* VGCheckBox.c */; };
+		6A6A3AC020A2BFC40065C506 /* VGColor.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3ABF20A2BFC40065C506 /* VGColor.c */; };
+		6A6A3AC320A2D2EB0065C506 /* VGWindow.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3AC220A2D2EB0065C506 /* VGWindow.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		212D3365564710F14E8910DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 342254A1387B1D310C0807D5 /* nanovg.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 43D652076C387E134DBE7986;
+			remoteInfo = libnanovg.a;
+		};
+		7E4A4549566B1E3933DA5BCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 342254A1387B1D310C0807D5 /* nanovg.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 567057AF50CF556D6BD37F30;
+			remoteInfo = libnanovg.a;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CAA5472492735814CAB07DB /* demo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = demo.c; path = ../example/demo.c; sourceTree = "<group>"; };
+		2F51044426947D9E2DA73538 /* example_gl3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = example_gl3.c; path = ../example/example_gl3.c; sourceTree = "<group>"; };
+		30757BE44D646B00007A0472 /* perf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = perf.c; path = ../example/perf.c; sourceTree = "<group>"; };
+		342254A1387B1D310C0807D5 /* nanovg.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = nanovg.xcodeproj; sourceTree = SOURCE_ROOT; };
+		6A64734920A03E3B002AE9FC /* image8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image8.jpg; sourceTree = "<group>"; };
+		6A64734A20A03E3B002AE9FC /* image9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image9.jpg; sourceTree = "<group>"; };
+		6A64734B20A03E3B002AE9FC /* image12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image12.jpg; sourceTree = "<group>"; };
+		6A64734C20A03E3B002AE9FC /* image11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image11.jpg; sourceTree = "<group>"; };
+		6A64734D20A03E3B002AE9FC /* image10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image10.jpg; sourceTree = "<group>"; };
+		6A64734E20A03E3B002AE9FC /* image7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image7.jpg; sourceTree = "<group>"; };
+		6A64734F20A03E3B002AE9FC /* image6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image6.jpg; sourceTree = "<group>"; };
+		6A64735020A03E3B002AE9FC /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		6A64735120A03E3B002AE9FC /* image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image5.jpg; sourceTree = "<group>"; };
+		6A64735220A03E3B002AE9FC /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		6A64735320A03E3B002AE9FC /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		6A64735420A03E3B002AE9FC /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		6A6A3A8420A04C240065C506 /* VGFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VGFont.h; path = ../src/VGFont.h; sourceTree = "<group>"; };
+		6A6A3A8520A04C240065C506 /* VGFont.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = VGFont.c; path = ../src/VGFont.c; sourceTree = "<group>"; };
+		6A6A3A8720A04D3B0065C506 /* VGLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VGLayer.h; path = ../src/VGLayer.h; sourceTree = "<group>"; };
+		6A6A3A8820A04D3B0065C506 /* VGLayer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = VGLayer.c; path = ../src/VGLayer.c; sourceTree = "<group>"; };
+		6A6A3A8A20A04D460065C506 /* VGLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VGLabel.h; path = ../src/VGLabel.h; sourceTree = "<group>"; };
+		6A6A3A8B20A04D460065C506 /* VGLabel.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = VGLabel.c; path = ../src/VGLabel.c; sourceTree = "<group>"; };
+		6A6A3A8D20A04D6F0065C506 /* VGLayerInternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VGLayerInternal.h; path = ../src/VGLayerInternal.h; sourceTree = "<group>"; };
+		6A6A3A8E20A04F4A0065C506 /* VGGeometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VGGeometry.h; path = ../src/VGGeometry.h; sourceTree = "<group>"; };
+		6A6A3A8F20A04F6C0065C506 /* VGGeometry.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = VGGeometry.c; path = ../src/VGGeometry.c; sourceTree = "<group>"; };
+		6A6A3A9120A052600065C506 /* VGObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VGObject.h; path = ../src/VGObject.h; sourceTree = "<group>"; };
+		6A6A3A9220A052600065C506 /* VGObject.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = VGObject.c; path = ../src/VGObject.c; sourceTree = "<group>"; };
+		6A6A3A9420A052E90065C506 /* VGObjectInternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VGObjectInternal.h; path = ../src/VGObjectInternal.h; sourceTree = "<group>"; };
+		6A6A3A9520A057A20065C506 /* VGContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VGContext.h; path = ../src/VGContext.h; sourceTree = "<group>"; };
+		6A6A3A9620A057A20065C506 /* VGContext.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = VGContext.c; path = ../src/VGContext.c; sourceTree = "<group>"; };
+		6A6A3A9820A0589F0065C506 /* VGTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VGTypes.h; path = ../src/VGTypes.h; sourceTree = "<group>"; };
+		6A6A3A9B20A138390065C506 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6A6A3A9C20A138390065C506 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6A6A3A9E20A138390065C506 /* vec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec.h; sourceTree = "<group>"; };
+		6A6A3A9F20A138390065C506 /* vec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vec.c; sourceTree = "<group>"; };
+		6A6A3AA320A13F710065C506 /* VGButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VGButton.h; path = ../src/VGButton.h; sourceTree = "<group>"; };
+		6A6A3AA420A13F710065C506 /* VGButton.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = VGButton.c; path = ../src/VGButton.c; sourceTree = "<group>"; };
+		6A6A3AA620A190A00065C506 /* VGSpinner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VGSpinner.h; path = ../src/VGSpinner.h; sourceTree = "<group>"; };
+		6A6A3AA720A190A00065C506 /* VGSpinner.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = VGSpinner.c; path = ../src/VGSpinner.c; sourceTree = "<group>"; };
+		6A6A3AA920A194AE0065C506 /* VGGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VGGradient.h; path = ../src/VGGradient.h; sourceTree = "<group>"; };
+		6A6A3AAA20A194AE0065C506 /* VGGradient.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = VGGradient.c; path = ../src/VGGradient.c; sourceTree = "<group>"; };
+		6A6A3AAC20A195640065C506 /* VGGradientInternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VGGradientInternal.h; path = ../src/VGGradientInternal.h; sourceTree = "<group>"; };
+		6A6A3AAD20A19DBB0065C506 /* VGSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VGSlider.h; path = ../src/VGSlider.h; sourceTree = "<group>"; };
+		6A6A3AAE20A19DBB0065C506 /* VGSlider.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = VGSlider.c; path = ../src/VGSlider.c; sourceTree = "<group>"; };
+		6A6A3AB020A19DD30065C506 /* VGDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VGDefine.h; path = ../src/VGDefine.h; sourceTree = "<group>"; };
+		6A6A3AB120A1A1E60065C506 /* VGInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VGInput.h; path = ../src/VGInput.h; sourceTree = "<group>"; };
+		6A6A3AB220A1A1E60065C506 /* VGInput.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = VGInput.c; path = ../src/VGInput.c; sourceTree = "<group>"; };
+		6A6A3AB420A1B1E30065C506 /* VGEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VGEvent.h; path = ../src/VGEvent.h; sourceTree = "<group>"; };
+		6A6A3AB520A1B1E30065C506 /* VGEvent.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = VGEvent.c; path = ../src/VGEvent.c; sourceTree = "<group>"; };
+		6A6A3ABA20A290D80065C506 /* VGCheckBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VGCheckBox.h; path = ../src/VGCheckBox.h; sourceTree = "<group>"; };
+		6A6A3ABB20A290D80065C506 /* VGCheckBox.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = VGCheckBox.c; path = ../src/VGCheckBox.c; sourceTree = "<group>"; };
+		6A6A3ABD20A29FC10065C506 /* VGContextInternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VGContextInternal.h; path = ../src/VGContextInternal.h; sourceTree = "<group>"; };
+		6A6A3ABE20A2BFC40065C506 /* VGColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VGColor.h; path = ../src/VGColor.h; sourceTree = "<group>"; };
+		6A6A3ABF20A2BFC40065C506 /* VGColor.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = VGColor.c; path = ../src/VGColor.c; sourceTree = "<group>"; };
+		6A6A3AC120A2D2EB0065C506 /* VGWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VGWindow.h; path = ../src/VGWindow.h; sourceTree = "<group>"; };
+		6A6A3AC220A2D2EB0065C506 /* VGWindow.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = VGWindow.c; path = ../src/VGWindow.c; sourceTree = "<group>"; };
+		71937EEF0F937BF6032D14E1 /* example_gl3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = example_gl3; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BEE7D7D30AF374716E05A10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB063B32812749258A075F5 /* libnanovg.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183E3257031833A81A493D34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34FD032F34811C281CF54229 /* libnanovg.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		213212D364D820F22FC1456D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71937EEF0F937BF6032D14E1 /* example_gl3 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		488C19F808181567534D2232 /* example */ = {
+			isa = PBXGroup;
+			children = (
+				2CAA5472492735814CAB07DB /* demo.c */,
+				2F51044426947D9E2DA73538 /* example_gl3.c */,
+				30757BE44D646B00007A0472 /* perf.c */,
+				6A6A3AC420A2F27B0065C506 /* Base */,
+				6A6A3AB820A28AD20065C506 /* Graphics */,
+				6A6A3AB920A28AE40065C506 /* Event */,
+				6A6A3AB720A28AB90065C506 /* UI */,
+			);
+			name = example;
+			sourceTree = "<group>";
+		};
+		6A64734820A03E3B002AE9FC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				6A64734920A03E3B002AE9FC /* image8.jpg */,
+				6A64734A20A03E3B002AE9FC /* image9.jpg */,
+				6A64734B20A03E3B002AE9FC /* image12.jpg */,
+				6A64734C20A03E3B002AE9FC /* image11.jpg */,
+				6A64734D20A03E3B002AE9FC /* image10.jpg */,
+				6A64734E20A03E3B002AE9FC /* image7.jpg */,
+				6A64734F20A03E3B002AE9FC /* image6.jpg */,
+				6A64735020A03E3B002AE9FC /* image4.jpg */,
+				6A64735120A03E3B002AE9FC /* image5.jpg */,
+				6A64735220A03E3B002AE9FC /* image1.jpg */,
+				6A64735320A03E3B002AE9FC /* image2.jpg */,
+				6A64735420A03E3B002AE9FC /* image3.jpg */,
+			);
+			name = images;
+			path = ../example/images;
+			sourceTree = "<group>";
+		};
+		6A6A3A9920A138390065C506 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				6A6A3A9A20A138390065C506 /* vec */,
+			);
+			name = lib;
+			path = ../lib;
+			sourceTree = "<group>";
+		};
+		6A6A3A9A20A138390065C506 /* vec */ = {
+			isa = PBXGroup;
+			children = (
+				6A6A3A9B20A138390065C506 /* LICENSE */,
+				6A6A3A9C20A138390065C506 /* README.md */,
+				6A6A3A9D20A138390065C506 /* src */,
+			);
+			path = vec;
+			sourceTree = "<group>";
+		};
+		6A6A3A9D20A138390065C506 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				6A6A3A9E20A138390065C506 /* vec.h */,
+				6A6A3A9F20A138390065C506 /* vec.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		6A6A3AB720A28AB90065C506 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6A6A3A8A20A04D460065C506 /* VGLabel.h */,
+				6A6A3A8B20A04D460065C506 /* VGLabel.c */,
+				6A6A3AA320A13F710065C506 /* VGButton.h */,
+				6A6A3AA420A13F710065C506 /* VGButton.c */,
+				6A6A3AA620A190A00065C506 /* VGSpinner.h */,
+				6A6A3AA720A190A00065C506 /* VGSpinner.c */,
+				6A6A3AAD20A19DBB0065C506 /* VGSlider.h */,
+				6A6A3AAE20A19DBB0065C506 /* VGSlider.c */,
+				6A6A3AB120A1A1E60065C506 /* VGInput.h */,
+				6A6A3AB220A1A1E60065C506 /* VGInput.c */,
+				6A6A3ABA20A290D80065C506 /* VGCheckBox.h */,
+				6A6A3ABB20A290D80065C506 /* VGCheckBox.c */,
+				6A6A3AC120A2D2EB0065C506 /* VGWindow.h */,
+				6A6A3AC220A2D2EB0065C506 /* VGWindow.c */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		6A6A3AB820A28AD20065C506 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				6A6A3A8420A04C240065C506 /* VGFont.h */,
+				6A6A3A8520A04C240065C506 /* VGFont.c */,
+				6A6A3A9520A057A20065C506 /* VGContext.h */,
+				6A6A3ABD20A29FC10065C506 /* VGContextInternal.h */,
+				6A6A3A9620A057A20065C506 /* VGContext.c */,
+				6A6A3A8720A04D3B0065C506 /* VGLayer.h */,
+				6A6A3A8D20A04D6F0065C506 /* VGLayerInternal.h */,
+				6A6A3A8820A04D3B0065C506 /* VGLayer.c */,
+				6A6A3A8E20A04F4A0065C506 /* VGGeometry.h */,
+				6A6A3A8F20A04F6C0065C506 /* VGGeometry.c */,
+				6A6A3A9820A0589F0065C506 /* VGTypes.h */,
+				6A6A3ABE20A2BFC40065C506 /* VGColor.h */,
+				6A6A3ABF20A2BFC40065C506 /* VGColor.c */,
+				6A6A3AA920A194AE0065C506 /* VGGradient.h */,
+				6A6A3AAC20A195640065C506 /* VGGradientInternal.h */,
+				6A6A3AAA20A194AE0065C506 /* VGGradient.c */,
+				6A6A3AB020A19DD30065C506 /* VGDefine.h */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		6A6A3AB920A28AE40065C506 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				6A6A3AB420A1B1E30065C506 /* VGEvent.h */,
+				6A6A3AB520A1B1E30065C506 /* VGEvent.c */,
+			);
+			name = Event;
+			sourceTree = "<group>";
+		};
+		6A6A3AC420A2F27B0065C506 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6A6A3A9120A052600065C506 /* VGObject.h */,
+				6A6A3A9420A052E90065C506 /* VGObjectInternal.h */,
+				6A6A3A9220A052600065C506 /* VGObject.c */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		6D0772E268D706BF76624868 /* example_gl3 */ = {
+			isa = PBXGroup;
+			children = (
+				6A6A3A9920A138390065C506 /* lib */,
+				6A64734820A03E3B002AE9FC /* images */,
+				488C19F808181567534D2232 /* example */,
+				213212D364D820F22FC1456D /* Products */,
+				7B64039267F467E72C5914EE /* Projects */,
+			);
+			name = example_gl3;
+			sourceTree = "<group>";
+		};
+		7B64039267F467E72C5914EE /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				342254A1387B1D310C0807D5 /* nanovg.xcodeproj */,
+			);
+			name = Projects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C0E67586A194E4315280A99 /* example_gl3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41F9611D3A371EC731A02229 /* Build configuration list for PBXNativeTarget "example_gl3" */;
+			buildPhases = (
+				72FC2A17008861E475B57D49 /* Resources */,
+				761F752625C67A3D76C3043B /* Sources */,
+				7BEE7D7D30AF374716E05A10 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46016E742F9E4F414F104031 /* PBXTargetDependency */,
+			);
+			name = example_gl3;
+			productInstallPath = "$(HOME)/bin";
+			productName = example_gl3;
+			productReference = 71937EEF0F937BF6032D14E1 /* example_gl3 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "example_gl3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6D0772E268D706BF76624868 /* example_gl3 */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 183E3257031833A81A493D34 /* Products */;
+					ProjectRef = 342254A1387B1D310C0807D5 /* nanovg.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4C0E67586A194E4315280A99 /* example_gl3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		34FD032F34811C281CF54229 /* libnanovg.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libnanovg.a;
+			remoteRef = 212D3365564710F14E8910DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72FC2A17008861E475B57D49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A64735520A03E4B002AE9FC /* image8.jpg in Resources */,
+				6A64735620A03E4B002AE9FC /* image9.jpg in Resources */,
+				6A6A3AA020A138390065C506 /* LICENSE in Resources */,
+				6A64735720A03E4B002AE9FC /* image12.jpg in Resources */,
+				6A64735820A03E4B002AE9FC /* image11.jpg in Resources */,
+				6A64735920A03E4B002AE9FC /* image10.jpg in Resources */,
+				6A64735A20A03E4B002AE9FC /* image7.jpg in Resources */,
+				6A64735B20A03E4B002AE9FC /* image6.jpg in Resources */,
+				6A64735C20A03E4B002AE9FC /* image4.jpg in Resources */,
+				6A64735D20A03E4B002AE9FC /* image5.jpg in Resources */,
+				6A6A3AA120A138390065C506 /* README.md in Resources */,
+				6A64735E20A03E4B002AE9FC /* image1.jpg in Resources */,
+				6A64735F20A03E4B002AE9FC /* image2.jpg in Resources */,
+				6A64736020A03E4B002AE9FC /* image3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		761F752625C67A3D76C3043B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6A3AC020A2BFC40065C506 /* VGColor.c in Sources */,
+				6A6A3AC320A2D2EB0065C506 /* VGWindow.c in Sources */,
+				6A6A3AB320A1A1E60065C506 /* VGInput.c in Sources */,
+				5866472C3639728724C44053 /* demo.c in Sources */,
+				6A6A3ABC20A290D80065C506 /* VGCheckBox.c in Sources */,
+				6A6A3A9020A04F6C0065C506 /* VGGeometry.c in Sources */,
+				6A6A3A8920A04D3B0065C506 /* VGLayer.c in Sources */,
+				6A6A3A8620A04C240065C506 /* VGFont.c in Sources */,
+				6A6A3AA820A190A00065C506 /* VGSpinner.c in Sources */,
+				6A6A3AAB20A194AE0065C506 /* VGGradient.c in Sources */,
+				6A6A3AA220A138390065C506 /* vec.c in Sources */,
+				6A6A3AA520A13F710065C506 /* VGButton.c in Sources */,
+				6A6A3AB620A1B1E30065C506 /* VGEvent.c in Sources */,
+				6A6A3A8C20A04D460065C506 /* VGLabel.c in Sources */,
+				6A6A3AAF20A19DBB0065C506 /* VGSlider.c in Sources */,
+				24597AF109E11D9B3E521F28 /* example_gl3.c in Sources */,
+				6A6A3A9720A057A20065C506 /* VGContext.c in Sources */,
+				09C64D897AE21F6210B632A5 /* perf.c in Sources */,
+				6A6A3A9320A052600065C506 /* VGObject.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46016E742F9E4F414F104031 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libnanovg.a;
+			targetProxy = 7E4A4549566B1E3933DA5BCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02992C2618D169953A973DD9 /* Release Native 32-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = (
+					../src,
+					../example,
+					/usr/local/opt/glfw/include,
+					"$(SRCROOT)/../lib/vec",
+				);
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = /usr/local/opt/glfw/lib;
+				OTHER_LDFLAGS = (
+					"-lglfw",
+					"-framework",
+					OpenGL,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					Carbon,
+				);
+				PRODUCT_NAME = example_gl3;
+			};
+			name = "Release Native 32-bit";
+		};
+		0B0C40F12FFC6807445D5850 /* Debug Native 32-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../src,
+					../example,
+				);
+				OBJROOT = obj/x32/Debug/example_gl3;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lglfw3",
+					"-framework",
+					OpenGL,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					Carbon,
+				);
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = "Debug Native 32-bit";
+		};
+		121869B514D01AF179A22B96 /* Debug Native 32-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = (
+					../src,
+					../example,
+					/usr/local/opt/glfw/include,
+					"$(SRCROOT)/../lib/vec",
+				);
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = /usr/local/opt/glfw/lib;
+				OTHER_LDFLAGS = (
+					"-lglfw",
+					"-framework",
+					OpenGL,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					Carbon,
+				);
+				PRODUCT_NAME = example_gl3;
+			};
+			name = "Debug Native 32-bit";
+		};
+		214773D14A5349A85F8E7098 /* Release Native 32-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../src,
+					../example,
+				);
+				OBJROOT = obj/x32/Release/example_gl3;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-lglfw3",
+					"-framework",
+					OpenGL,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					Carbon,
+				);
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = "Release Native 32-bit";
+		};
+		3932433D6497353544AD5D5A /* Release Native 64-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = (
+					../src,
+					../example,
+					/usr/local/opt/glfw/include,
+					"$(SRCROOT)/../lib/vec",
+				);
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = /usr/local/opt/glfw/lib;
+				OTHER_LDFLAGS = (
+					"-lglfw",
+					"-framework",
+					OpenGL,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					Carbon,
+				);
+				PRODUCT_NAME = example_gl3;
+			};
+			name = "Release Native 64-bit";
+		};
+		44BB7CF21C52763D2D96668C /* Debug Native 64-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../src,
+					../example,
+				);
+				OBJROOT = obj/x64/Debug/example_gl3;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lglfw3",
+					"-framework",
+					OpenGL,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					Carbon,
+				);
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = "Debug Native 64-bit";
+		};
+		4589550C2CB274C138F1627B /* Release Native 64-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../src,
+					../example,
+				);
+				OBJROOT = obj/x64/Release/example_gl3;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-lglfw3",
+					"-framework",
+					OpenGL,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					Carbon,
+				);
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = "Release Native 64-bit";
+		};
+		4737201430E072A94A0D1CC5 /* Debug Native */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = (
+					../src,
+					../example,
+					/usr/local/opt/glfw/include,
+					"$(SRCROOT)/../lib/vec",
+				);
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = /usr/local/opt/glfw/lib;
+				OTHER_LDFLAGS = (
+					"-lglfw",
+					"-framework",
+					OpenGL,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					Carbon,
+				);
+				PRODUCT_NAME = example_gl3;
+			};
+			name = "Debug Native";
+		};
+		50856E3A305545CD49D74AE9 /* Debug Native 64-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = (
+					../src,
+					../example,
+					/usr/local/opt/glfw/include,
+					"$(SRCROOT)/../lib/vec",
+				);
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = /usr/local/opt/glfw/lib;
+				OTHER_LDFLAGS = (
+					"-lglfw",
+					"-framework",
+					OpenGL,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					Carbon,
+				);
+				PRODUCT_NAME = example_gl3;
+			};
+			name = "Debug Native 64-bit";
+		};
+		5E88338D01E03CEF1F5D48CF /* Release Native */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../src,
+					../example,
+				);
+				OBJROOT = obj/Release/example_gl3;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-lglfw3",
+					"-framework",
+					OpenGL,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					Carbon,
+				);
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = "Release Native";
+		};
+		67D3551642FD27307EDB006A /* Debug Native */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../src,
+					../example,
+				);
+				OBJROOT = obj/Debug/example_gl3;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lglfw3",
+					"-framework",
+					OpenGL,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					Carbon,
+				);
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = "Debug Native";
+		};
+		72DF2F24724B2EE34B9D4083 /* Release Native */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = (
+					../src,
+					../example,
+					/usr/local/opt/glfw/include,
+					"$(SRCROOT)/../lib/vec",
+				);
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = /usr/local/opt/glfw/lib;
+				OTHER_LDFLAGS = (
+					"-lglfw",
+					"-framework",
+					OpenGL,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					Carbon,
+				);
+				PRODUCT_NAME = example_gl3;
+			};
+			name = "Release Native";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "example_gl3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67D3551642FD27307EDB006A /* Debug Native */,
+				44BB7CF21C52763D2D96668C /* Debug Native 64-bit */,
+				0B0C40F12FFC6807445D5850 /* Debug Native 32-bit */,
+				5E88338D01E03CEF1F5D48CF /* Release Native */,
+				4589550C2CB274C138F1627B /* Release Native 64-bit */,
+				214773D14A5349A85F8E7098 /* Release Native 32-bit */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug Native";
+		};
+		41F9611D3A371EC731A02229 /* Build configuration list for PBXNativeTarget "example_gl3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4737201430E072A94A0D1CC5 /* Debug Native */,
+				50856E3A305545CD49D74AE9 /* Debug Native 64-bit */,
+				121869B514D01AF179A22B96 /* Debug Native 32-bit */,
+				72DF2F24724B2EE34B9D4083 /* Release Native */,
+				3932433D6497353544AD5D5A /* Release Native 64-bit */,
+				02992C2618D169953A973DD9 /* Release Native 32-bit */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug Native";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

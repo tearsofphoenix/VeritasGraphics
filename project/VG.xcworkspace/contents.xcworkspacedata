@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:nanovg.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:example_gl3.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:example_gl3_msaa.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:example_fbo.xcodeproj">
+   </FileRef>
+</Workspace>
