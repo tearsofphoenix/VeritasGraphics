@@ -11,26 +11,29 @@
 		24597AF109E11D9B3E521F28 /* example_gl3.c in Sources */ = {isa = PBXBuildFile; fileRef = 2F51044426947D9E2DA73538 /* example_gl3.c */; };
 		2BB063B32812749258A075F5 /* libnanovg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FD032F34811C281CF54229 /* libnanovg.a */; };
 		5866472C3639728724C44053 /* demo.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CAA5472492735814CAB07DB /* demo.c */; };
-		6A64735520A03E4B002AE9FC /* image8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A64734920A03E3B002AE9FC /* image8.jpg */; };
-		6A64735620A03E4B002AE9FC /* image9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A64734A20A03E3B002AE9FC /* image9.jpg */; };
-		6A64735720A03E4B002AE9FC /* image12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A64734B20A03E3B002AE9FC /* image12.jpg */; };
-		6A64735820A03E4B002AE9FC /* image11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A64734C20A03E3B002AE9FC /* image11.jpg */; };
-		6A64735920A03E4B002AE9FC /* image10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A64734D20A03E3B002AE9FC /* image10.jpg */; };
-		6A64735A20A03E4B002AE9FC /* image7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A64734E20A03E3B002AE9FC /* image7.jpg */; };
-		6A64735B20A03E4B002AE9FC /* image6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A64734F20A03E3B002AE9FC /* image6.jpg */; };
-		6A64735C20A03E4B002AE9FC /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A64735020A03E3B002AE9FC /* image4.jpg */; };
-		6A64735D20A03E4B002AE9FC /* image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A64735120A03E3B002AE9FC /* image5.jpg */; };
-		6A64735E20A03E4B002AE9FC /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A64735220A03E3B002AE9FC /* image1.jpg */; };
-		6A64735F20A03E4B002AE9FC /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A64735320A03E3B002AE9FC /* image2.jpg */; };
-		6A64736020A03E4B002AE9FC /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A64735420A03E3B002AE9FC /* image3.jpg */; };
+		6A4C1A2A20A5854900B12DB1 /* image8.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6A64734920A03E3B002AE9FC /* image8.jpg */; };
+		6A4C1A2B20A5854900B12DB1 /* image9.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6A64734A20A03E3B002AE9FC /* image9.jpg */; };
+		6A4C1A2C20A5854900B12DB1 /* image12.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6A64734B20A03E3B002AE9FC /* image12.jpg */; };
+		6A4C1A2D20A5854900B12DB1 /* image11.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6A64734C20A03E3B002AE9FC /* image11.jpg */; };
+		6A4C1A2E20A5854900B12DB1 /* image10.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6A64734D20A03E3B002AE9FC /* image10.jpg */; };
+		6A4C1A2F20A5854900B12DB1 /* image7.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6A64734E20A03E3B002AE9FC /* image7.jpg */; };
+		6A4C1A3020A5854900B12DB1 /* image6.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6A64734F20A03E3B002AE9FC /* image6.jpg */; };
+		6A4C1A3120A5854900B12DB1 /* image4.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6A64735020A03E3B002AE9FC /* image4.jpg */; };
+		6A4C1A3220A5854900B12DB1 /* image5.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6A64735120A03E3B002AE9FC /* image5.jpg */; };
+		6A4C1A3320A5854900B12DB1 /* image1.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6A64735220A03E3B002AE9FC /* image1.jpg */; };
+		6A4C1A3420A5854900B12DB1 /* image2.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6A64735320A03E3B002AE9FC /* image2.jpg */; };
+		6A4C1A3520A5854900B12DB1 /* image3.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6A64735420A03E3B002AE9FC /* image3.jpg */; };
+		6A4C1A3C20A585EC00B12DB1 /* entypo.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6A4C1A3620A585D000B12DB1 /* entypo.ttf */; };
+		6A4C1A3D20A585EC00B12DB1 /* NotoEmoji-Regular.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6A4C1A3A20A585D100B12DB1 /* NotoEmoji-Regular.ttf */; };
+		6A4C1A3E20A585EC00B12DB1 /* Roboto-Bold.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6A4C1A3920A585D000B12DB1 /* Roboto-Bold.ttf */; };
+		6A4C1A3F20A585EC00B12DB1 /* Roboto-Light.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6A4C1A3720A585D000B12DB1 /* Roboto-Light.ttf */; };
+		6A4C1A4020A585EC00B12DB1 /* Roboto-Regular.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6A4C1A3820A585D000B12DB1 /* Roboto-Regular.ttf */; };
 		6A6A3A8620A04C240065C506 /* VGFont.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3A8520A04C240065C506 /* VGFont.c */; };
 		6A6A3A8920A04D3B0065C506 /* VGLayer.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3A8820A04D3B0065C506 /* VGLayer.c */; };
 		6A6A3A8C20A04D460065C506 /* VGLabel.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3A8B20A04D460065C506 /* VGLabel.c */; };
 		6A6A3A9020A04F6C0065C506 /* VGGeometry.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3A8F20A04F6C0065C506 /* VGGeometry.c */; };
 		6A6A3A9320A052600065C506 /* VGObject.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3A9220A052600065C506 /* VGObject.c */; };
 		6A6A3A9720A057A20065C506 /* VGContext.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3A9620A057A20065C506 /* VGContext.c */; };
-		6A6A3AA020A138390065C506 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6A6A3A9B20A138390065C506 /* LICENSE */; };
-		6A6A3AA120A138390065C506 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6A6A3A9C20A138390065C506 /* README.md */; };
 		6A6A3AA220A138390065C506 /* vec.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3A9F20A138390065C506 /* vec.c */; };
 		6A6A3AA520A13F710065C506 /* VGButton.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3AA420A13F710065C506 /* VGButton.c */; };
 		6A6A3AA820A190A00065C506 /* VGSpinner.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A3AA720A190A00065C506 /* VGSpinner.c */; };
@@ -60,6 +63,44 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6A4C1A2920A5852B00B12DB1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = example/images;
+			dstSubfolderSpec = 7;
+			files = (
+				6A4C1A2A20A5854900B12DB1 /* image8.jpg in CopyFiles */,
+				6A4C1A2B20A5854900B12DB1 /* image9.jpg in CopyFiles */,
+				6A4C1A2C20A5854900B12DB1 /* image12.jpg in CopyFiles */,
+				6A4C1A2D20A5854900B12DB1 /* image11.jpg in CopyFiles */,
+				6A4C1A2E20A5854900B12DB1 /* image10.jpg in CopyFiles */,
+				6A4C1A2F20A5854900B12DB1 /* image7.jpg in CopyFiles */,
+				6A4C1A3020A5854900B12DB1 /* image6.jpg in CopyFiles */,
+				6A4C1A3120A5854900B12DB1 /* image4.jpg in CopyFiles */,
+				6A4C1A3220A5854900B12DB1 /* image5.jpg in CopyFiles */,
+				6A4C1A3320A5854900B12DB1 /* image1.jpg in CopyFiles */,
+				6A4C1A3420A5854900B12DB1 /* image2.jpg in CopyFiles */,
+				6A4C1A3520A5854900B12DB1 /* image3.jpg in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4C1A3B20A585E200B12DB1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = example;
+			dstSubfolderSpec = 7;
+			files = (
+				6A4C1A3C20A585EC00B12DB1 /* entypo.ttf in CopyFiles */,
+				6A4C1A3D20A585EC00B12DB1 /* NotoEmoji-Regular.ttf in CopyFiles */,
+				6A4C1A3E20A585EC00B12DB1 /* Roboto-Bold.ttf in CopyFiles */,
+				6A4C1A3F20A585EC00B12DB1 /* Roboto-Light.ttf in CopyFiles */,
+				6A4C1A4020A585EC00B12DB1 /* Roboto-Regular.ttf in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		2CAA5472492735814CAB07DB /* demo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = demo.c; path = ../example/demo.c; sourceTree = "<group>"; };
 		2F51044426947D9E2DA73538 /* example_gl3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = example_gl3.c; path = ../example/example_gl3.c; sourceTree = "<group>"; };
@@ -68,6 +109,11 @@
 		6A25A0F420A42F800080A0DD /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE.txt; path = ../LICENSE.txt; sourceTree = "<group>"; };
 		6A25A0F520A42F800080A0DD /* premake4.lua */ = {isa = PBXFileReference; lastKnownFileType = text; name = premake4.lua; path = ../premake4.lua; sourceTree = "<group>"; };
 		6A25A0F620A42F800080A0DD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6A4C1A3620A585D000B12DB1 /* entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = entypo.ttf; path = ../example/entypo.ttf; sourceTree = "<group>"; };
+		6A4C1A3720A585D000B12DB1 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "../example/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		6A4C1A3820A585D000B12DB1 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "../example/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		6A4C1A3920A585D000B12DB1 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "../example/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		6A4C1A3A20A585D100B12DB1 /* NotoEmoji-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoEmoji-Regular.ttf"; path = "../example/NotoEmoji-Regular.ttf"; sourceTree = "<group>"; };
 		6A64734920A03E3B002AE9FC /* image8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image8.jpg; sourceTree = "<group>"; };
 		6A64734A20A03E3B002AE9FC /* image9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image9.jpg; sourceTree = "<group>"; };
 		6A64734B20A03E3B002AE9FC /* image12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image12.jpg; sourceTree = "<group>"; };
@@ -154,6 +200,12 @@
 		488C19F808181567534D2232 /* example */ = {
 			isa = PBXGroup;
 			children = (
+				6A4C1A3620A585D000B12DB1 /* entypo.ttf */,
+				6A4C1A3A20A585D100B12DB1 /* NotoEmoji-Regular.ttf */,
+				6A4C1A3920A585D000B12DB1 /* Roboto-Bold.ttf */,
+				6A4C1A3720A585D000B12DB1 /* Roboto-Light.ttf */,
+				6A4C1A3820A585D000B12DB1 /* Roboto-Regular.ttf */,
+				6A64734820A03E3B002AE9FC /* images */,
 				2CAA5472492735814CAB07DB /* demo.c */,
 				2F51044426947D9E2DA73538 /* example_gl3.c */,
 				30757BE44D646B00007A0472 /* perf.c */,
@@ -181,8 +233,7 @@
 				6A64735320A03E3B002AE9FC /* image2.jpg */,
 				6A64735420A03E3B002AE9FC /* image3.jpg */,
 			);
-			name = images;
-			path = ../example/images;
+			path = images;
 			sourceTree = "<group>";
 		};
 		6A6A3A9920A138390065C506 /* lib */ = {
@@ -284,7 +335,6 @@
 				6A25A0F520A42F800080A0DD /* premake4.lua */,
 				6A25A0F620A42F800080A0DD /* README.md */,
 				6A6A3A9920A138390065C506 /* lib */,
-				6A64734820A03E3B002AE9FC /* images */,
 				488C19F808181567534D2232 /* example */,
 				213212D364D820F22FC1456D /* Products */,
 				7B64039267F467E72C5914EE /* Projects */,
@@ -307,9 +357,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41F9611D3A371EC731A02229 /* Build configuration list for PBXNativeTarget "VeritasGraphics" */;
 			buildPhases = (
-				72FC2A17008861E475B57D49 /* Resources */,
 				761F752625C67A3D76C3043B /* Sources */,
 				7BEE7D7D30AF374716E05A10 /* Frameworks */,
+				6A4C1A2920A5852B00B12DB1 /* CopyFiles */,
+				6A4C1A3B20A585E200B12DB1 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -361,30 +412,6 @@
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
-
-/* Begin PBXResourcesBuildPhase section */
-		72FC2A17008861E475B57D49 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A64735520A03E4B002AE9FC /* image8.jpg in Resources */,
-				6A64735620A03E4B002AE9FC /* image9.jpg in Resources */,
-				6A6A3AA020A138390065C506 /* LICENSE in Resources */,
-				6A64735720A03E4B002AE9FC /* image12.jpg in Resources */,
-				6A64735820A03E4B002AE9FC /* image11.jpg in Resources */,
-				6A64735920A03E4B002AE9FC /* image10.jpg in Resources */,
-				6A64735A20A03E4B002AE9FC /* image7.jpg in Resources */,
-				6A64735B20A03E4B002AE9FC /* image6.jpg in Resources */,
-				6A64735C20A03E4B002AE9FC /* image4.jpg in Resources */,
-				6A64735D20A03E4B002AE9FC /* image5.jpg in Resources */,
-				6A6A3AA120A138390065C506 /* README.md in Resources */,
-				6A64735E20A03E4B002AE9FC /* image1.jpg in Resources */,
-				6A64735F20A03E4B002AE9FC /* image2.jpg in Resources */,
-				6A64736020A03E4B002AE9FC /* image3.jpg in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		761F752625C67A3D76C3043B /* Sources */ = {
